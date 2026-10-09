@@ -1,0 +1,6 @@
+word = input("Введіть слово: ")
+print(f"\nКількість символів: {len(word)}")
+print(f"Перший символ: {word[0]}")
+print(f"Останній символ: {word[-1]}")
+print(f"Верхній регістр: {word.upper()}")
+print(f"Навпаки: {word[::-1]}")
